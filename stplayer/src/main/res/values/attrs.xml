@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="STVideoView">
+        <attr name="player_type" format="enum">
+            <enum name="auto" value="0" />
+            <enum name="exo" value="1" />
+            <enum name="ijk" value="2" />
+            <enum name="sys" value="3" />
+        </attr>
+        <attr name="render_type" format="enum">
+            <enum name="auto" value="0" />
+            <enum name="surface" value="1" />
+            <enum name="texture" value="2" />
+            <enum name="gl_surface" value="3" />
+            <enum name="gl_texture" value="4" />
+        </attr>
+
+        <attr name="scale_type" format="enum">
+            <enum name="auto" value="0" />
+            <enum name="scale_16_9" value="1" />
+            <enum name="scale_4_3" value="2" />
+            <enum name="match_parent" value="3" />
+            <enum name="center_crop" value="4" />
+            <enum name="original" value="5" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MediaController">
+        <attr name="show_timeout" format="integer" />
+    </declare-styleable>
+</resources>

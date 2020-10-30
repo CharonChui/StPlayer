@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="375dp"
+    android:layout_height="match_parent"
+    android:background="#aa000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@id/st_ui_view_more_menu_takpic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/st_video_view_takepic"
+            android:contentDescription="@string/more" />
+
+        <TextView
+            android:id="@+id/st_ui_more_menu_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/brightness"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/st_ui_more_menu_light_seekbar"
+            android:layout_width="300dp"
+            android:max="100"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/st_ui_more_menu_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/volume_change"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/st_ui_more_menu_volume_seekbar"
+            android:layout_width="300dp"
+            android:max="100"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

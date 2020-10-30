@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="st_ui_view_play" type="id" />
+    <item name="st_ui_view_pause" type="id" />
+    <item name="st_ui_view_back" type="id" />
+
+    <item name="st_ui_view_error_img" type="id" />
+    <item name="st_ui_view_error_tip" type="id" />
+
+    <item name="st_ui_view_error_msg" type="id" />
+    <item name="st_ui_view_error_retry" type="id" />
+
+    <item name="st_ui_view_no_network_msg" type="id" />
+    <item name="st_ui_view_no_network_retry" type="id" />
+
+    <item name="st_ui_view_completion_icon" type="id" />
+    <item name="st_ui_view_completion_replay" type="id" />
+
+    <item name="st_ui_view_completion_bottom_progress" type="id" />
+
+    <item name="st_ui_view_loading_progressbar" type="id" />
+
+    <item name="st_player_play" type="id" />
+    <item name="st_player_pause" type="id" />
+    <item name="st_player_back" type="id" />
+    <item name="st_player_ffwd" type="id" />
+    <item name="st_player_rew" type="id" />
+
+    <item name="st_player_prev" type="id" />
+    <item name="st_player_next" type="id" />
+    <item name="st_player_time_current" type="id" />
+    <item name="st_player_time" type="id" />
+    <item name="st_player_mediacontroller_progress" type="id" />
+    <item name="st_player_fullscreen" type="id" />
+    <item name="st_player_loading" type="id" />
+    <item name="st_player_loading_speed" type="id" />
+    <item name="st_player_lock" type="id" />
+    <item name="st_player_more_menu" type="id" />
+    <item name="st_player_top_root" type="id" />
+    <item name="st_player_center_root" type="id" />
+    <item name="st_player_bottom_root" type="id" />
+    <item name="st_player_left_root" type="id" />
+    <item name="st_player_right_root" type="id" />
+
+
+    <item name="st_player_error_message" type="id" />
+
+    <item name="st_ui_view_loading_view" type="id" />
+    <item name="st_ui_view_prepare" type="id" />
+    <item name="st_ui_view_loading_speed" type="id" />
+    <item name="st_ui_view_prepare_cover" type="id" />
+
+    <item name="st_ui_view_loading" type="id" />
+    <item name="st_ui_view_loading_prepare" type="id" />
+    <item name="st_ui_view_more_menu_takpic" type="id" />
+
+    <item name="st_ui_view_icon_gesture" type="id" />
+    <item name="st_ui_view_tv_gesture" type="id" />
+    <item name="st_ui_view_progress_gesture" type="id" />
+
+    <item name="preview_progressbar" type="id" />
+    <item name="preview_icon" type="id" />
+    <item name="st_ui_view_seek_tip_preview" type="id" />
+    <item name="st_ui_view_seek_tip_icon" type="id" />
+    <item name="st_ui_view_seek_tip_tv" type="id" />
+    <item name="st_ui_view_seek_tip_gesture" type="id" />
+    <item name="st_ui_view_preview_gesture" type="id" />
+</resources>

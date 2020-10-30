@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">StPlayer</string>
+    <string name="full_screen_title">我是全屏我骄傲</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="info">Info</string>
+    <string name="info_description">Information about this video</string>
+    <string name="info_uri" translatable="false">https://www.baidu.com</string>
+    <string name="more">More</string>
+    <string name="more_description">More about this video</string>
+    <string name="more_uri" translatable="false">https://www.baidu.com</string>
+    <string name="logic_controller">logic controller</string>
+    <string name="next">next</string>
+    <string name="lock">lock</string>
+    <string name="back">back</string>
+    <string name="prev">prev</string>
+    <string name="simplevideoview">SimpleVideoView</string>
+    <string name="preloadvideoview">PreloadVideoView</string>
+    <string name="floatwindow">FloatWindow</string>
+    <string name="videoapi">VideoAPI</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="live">Live</string>
+    <string name="mini_video">Mini Video</string>
+    <string name="feed_list">Feed List</string>
+    <string name="video_detail">Video Detail</string>
+    <string name="picture_in_picture">Picture In Picture</string>
+    <string name="filter">Filter</string>
+    <string name="dash">Dash</string>
+    <string name="preview">Preview</string>
+    <string name="start">start</string>
+    <string name="fullscreen">fullscreen</string>
+    <string name="hahah">hahah</string>
+    <string name="mini_video_test">我是小视频，哈哈哈哈哈</string>
+    <string name="stop">stop</string>
+    <string name="businiss">businiss</string>
+    <string name="over">Over</string>
+    <string name="test">哈哈哈你打。。。的点点滴滴多多多</string>
+    <string name="start_pip">Start Pip</string>
+    <string name="gesture">gesture</string>
+    <string name="cover">cover</string>
+    <string name="startplay">StartPlay</string>
+    <string name="showfloatwindow">ShowFloatWindow</string>
+    <string name="hidefloatwindow">HideFloatWindow</string>
+    <string name="scale_auto">scale_auto</string>
+    <string name="scale_4_3">scale_4_3</string>
+    <string name="scale_16_9">scale_16_9</string>
+    <string name="scale_match_parent">scale_match_parent</string>
+    <string name="scale_center_crop">scale_center_crop</string>
+    <string name="scale_orignal">scale_orignal</string>
+</resources>

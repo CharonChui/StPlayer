@@ -1,0 +1,8 @@
+include ':stplayer_exo'
+include ':stplayer_ijk'
+include ':stplayer_floatwindow'
+include ':stplayer_preload'
+include ':stplayer_ui'
+include ':stplayer'
+include ':demo'
+rootProject.name = "StPlayer"

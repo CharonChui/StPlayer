@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simplevideoview" />
+
+        <Button
+            android:id="@+id/mPreloadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preloadvideoview" />
+
+        <Button
+            android:id="@+id/mFloatWindowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/floatwindow" />
+
+        <Button
+            android:id="@+id/mVideoApiButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/videoapi" />
+
+        <Button
+            android:id="@+id/mFullScreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_screen" />
+
+        <Button
+            android:id="@+id/mLiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/live" />
+
+        <Button
+            android:id="@+id/mMiniButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mini_video" />
+
+        <Button
+            android:id="@+id/mFeedListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feed_list" />
+
+        <Button
+            android:id="@+id/mDetailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/video_detail" />
+
+        <Button
+            android:id="@+id/mPipButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/picture_in_picture" />
+
+        <Button
+            android:id="@+id/mFilterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter" />
+
+        <Button
+            android:id="@+id/mDashButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dash" />
+
+        <Button
+            android:id="@+id/mPreViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preview" />
+
+    </LinearLayout>
+</ScrollView>

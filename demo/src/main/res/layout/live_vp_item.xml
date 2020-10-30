@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#00f"
+    android:layout_height="match_parent">
+
+    <com.st.stplayer.StVideoView
+        android:background="#0f0"
+        android:id="@+id/mVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2000000">
+
+    <TextView
+        android:id="@id/st_ui_view_error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24.5dp"
+        android:text="@string/st_video_play_fail"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@id/st_ui_view_error_retry"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24.5dp"
+        android:background="@drawable/st_video_component_replay_bg"
+        android:gravity="center"
+        android:text="@string/st_video_play_retry"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</FrameLayout>
