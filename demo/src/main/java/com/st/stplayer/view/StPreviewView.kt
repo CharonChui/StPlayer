@@ -121,3 +121,33 @@ class StPreviewView : RelativeLayout {
         private val LOG_TAG = StPreviewView::class.java.simpleName
     }
 }
+/**
+其它几种实现方式:
+
+1. 通过MediaMetadataRetriever 只能获取你指定时间的附近的关键帧（Key frame）
+    MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+    mmr.setDataSource(renderOutputFilePath);
+    mmr.getFrameAtTime(1x1000x1000,OPTION_CLOSEST_SYNC );//
+获取1秒附近的关键帧，注意，只是附近，获取不到精确位置的图片。但是用于预览也够了
+
+2. 通过GLSurfaceView，拖到到某个事件点后，来onDrawFrame，这种方式比较高效。
+
+3. FFmpeg实现，获取某个位置的picture，github上有封装好的实现此功能的库，类似和MediaMetadataRetriever一样的用法，可以更精准，高效。
+链接：https://github.com/wseemann/FFmpegMediaMetadataRetriever，原理就是取某个timebase的关键帧。然后回调出去展示。
+需要注意的是，取帧是个耗时的操作，需要放到子线程中
+
+    FFmpegMediaMetadataRetriever mmr = new FFmpegMediaMetadataRetriever();
+    mmr.setDataSource(mUri);
+
+    //获取第一帧原尺寸图片
+    mmrc.getFrameAtTime();
+
+    //获取指定位置的原尺寸图片 注意这里传的timeUs是微秒
+    mmrc.getFrameAtTime(timeUs, option);
+
+    //获取指定位置指定宽高的缩略图
+    mmrc.getScaledFrameAtTime(timeUs, MediaMetadataRetrieverCompat.OPTION_CLOSEST, width, height);
+
+    //获取指定位置指定宽高并且旋转的缩略图
+    mmrc.getScaledFrameAtTime(timeUs, MediaMetadataRetrieverCompat.OPTION_CLOSEST, width, height, rotate);
+ */
